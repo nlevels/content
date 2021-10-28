@@ -14,8 +14,7 @@ theme_settings:
   # Header and footer text
   header_text: 
   header_text_feature_image:
-  footer_text: >
-   Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/rohanchandra/type-theme">Type Theme</a>
+  footer_text: 
 
   # Icons
   rss: true
@@ -55,7 +54,7 @@ theme_settings:
   str_previous_post: "Previous post"
   str_next_page: "Next"
   str_previous_page: "Prev"
-  str_continue_reading: "Continue reading"
+  str_continue_reading: "Читать подробнее"
   str_javascript_required_disqus: "Please enable JavaScript to view comments."
   str_search_no_results: "No results found."
 
