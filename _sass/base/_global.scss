@@ -21,32 +21,35 @@ html {
 ::-moz-selection {
   background: $selection-color;
 }
+
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 body {
-  color: $text-color;
-  font-family: $font-family-main;
-  font-size: $font-size;
+  color: #333;
+  font-family: 'PT Sans', Arial, Helvetica, sans-serif;
   word-wrap: break-word;
+  font-size: 16px;
+  line-height: 20px;
 }
 h1, h2, h3, h4, h5, h6 {
-  font-family: $font-family-headings;
-  line-height: 1.2;
-  margin: 0.67em 0;
-  a {
-    color: $text-color;
-  }
+  margin: 0;
+  font-weight: bold;
 }
 h1 {
-  font-size: 2.5em;
+  font-size: 30px;
+  line-height: 36px;
 }
 h2 {
-  font-size: 2em;
+  font-size: 30px;
+  line-height: 36px;
 }
 h3 {
-  font-size: 1.5em;
+  font-size: 16px;
+  line-height: 20px;
+  margin-top: 16px;
 }
-h4 {
-  font-size: 1.15em;
-}
+
+
 blockquote {
     border-left: 2px solid;
     padding: 1em 1em;
