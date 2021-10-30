@@ -21,8 +21,8 @@ layout: default
         </h1>
         <p class="meta">
           <time datetime="{{ page.date | date_to_xmlschema }}">
-            {{ page.date | date: "%-d" }}
-            {% assign month = page.date | date: '%-m' %}
+            {{ post.date | date: "%-d" }}
+            {% assign month = post.date | date: '%-m' %}
             {% case month %}
               {% when '1' %}января
               {% when '2' %}февраля
@@ -37,7 +37,7 @@ layout: default
               {% when '11' %}ноября
               {% when '12' %}декабря
             {% endcase %}
-            {{ page.date | date: "%Y" }}
+            {{ post.date | date: "%Y" }}
           </time>
         </p>
       </header>
