@@ -1,11 +1,3 @@
-# Type Theme
-
-![Default Type Theme blog](https://user-images.githubusercontent.com/816965/30518919-d5978024-9bcd-11e7-81b3-3dd07e99a1f9.png)
-
-A free and open-source [Jekyll](https://jekyllrb.com) theme. Great for blogs and easy to customize.
-
-[Demo](https://rohanchandra.github.io/type-theme/)
-
 ## Usage
 
 1. Fork and clone the [Type Theme repo](https://github.com/rohanchandra/type-theme): `git clone https://github.com/rohanchandra/type-theme`
@@ -30,27 +22,6 @@ theme:
 Notice the avatar variable is left intentionally blank.
 
 Below is a summary of the configuration options in Type Theme.
-
-### Site configuration
-The most common configurations, included here for guidance, are:
-
-Jekyll website *without* a subpath (such as a GitHub Pages website for a given username):
-
-```yml
-# SITE CONFIGURATION
-baseurl: ""
-url: "https://username.github.io"
-```
-
-Jekyll website *with* subpath (like the Type Theme demo page):
-
-```yml
-# SITE CONFIGURATION
-baseurl: "/sub-directory"
-url: "https://username.github.io/"
-```
-
-Please configure this in `_config.yml` before using the theme.
 
 ### Meta
 
@@ -87,19 +58,6 @@ Add your username on selected websites in the icon section of the `_config.yml` 
 | email_address  | type@example.com                                | Email address                                          | Yes      |
 | linkedin       | https://www.linkedin.com/in/FirstLast           | Full URL to profile on LinkedIn                        | Yes      |
 | stack_exchange | https://stackoverflow.com/users/0000/first-last | Full URL to profile on Stack Exchange                  | Yes      |
-
-### Scripts
-
-Change these variables in `_config.yml`:
-
-
-| Variable         | Example      | Description                                                                                                                         | Optional |
-| ---------------- | ------------ | ----------------------------------------------------------------------------------------------------------------------------------- | -------- |
-| google_analytics | UA-123456-01 | Google Analytics [tracking ID](https://support.google.com/analytics/answer/1032385?hl=en)                                           | Yes      |
-| disqus_shortname | shortname    | Disqus [shortname](https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-)                                     | Yes      |
-| katex            | true         | Takes boolean value (true/false) to conditionally load [KaTeX](https://khan.github.io/KaTeX/) scripts required for math typesetting | Yes      |
-
-Scripts listed here are only loaded if you provide a value in the `_config.yml` file.
 
 ### Localization strings
 
@@ -219,7 +177,7 @@ feature-img: "assets/img/sample_feature_img.png"
 ---
 ```
 
-### Hiding pages from navigation
+### Hiding PAGES from navigation
 
 In the front matter of a page, add `hide: true` to prevent the page from showing up in the header's navigation bar (visitors can still visit the URL through other means).
 
@@ -293,6 +251,3 @@ title: "This is a title"
 subtitle: "This is a subtitle"
 ---
 ```
-
-## License
-[The MIT License (MIT)](https://github.com/rohanchandra/type-theme/blob/master/LICENSE)
